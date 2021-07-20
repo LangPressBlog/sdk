@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"outDir": "./lib/",
+		"noImplicitAny": false,
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"module": "es6",
+		"target": "es5",
+		"lib": ["esnext", "dom"],
+		"jsx": "react",
+		"allowJs": true
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"**/*.spec.ts"
+	]
+}
