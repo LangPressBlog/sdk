@@ -9,7 +9,7 @@ const config = {
 		filename: 'bundle.js',
 		path: path.resolve(__dirname, 'lib'),
 		publicPath: 'lib',
-		libraryTarget: 'umd'
+		libraryTarget: 'commonjs2'
 	},
 	node: {
 		fs: 'empty',
